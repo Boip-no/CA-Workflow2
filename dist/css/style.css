@@ -1,0 +1,643 @@
+/*
+dec032 - yellow
+3788c8 - blue
+e84827 - red/orange
+a24d98 - purple
+30a836 - green
+*/
+/*html {
+  width: 90%;
+  margin: auto;*/
+Html body {
+  flex-direction: column;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  columns: column;
+  font-size: 1.2em;
+}
+
+body {
+  display: inline-block;
+  margin: 40px;
+}
+
+h5, h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: -moz-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+p {
+  padding: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  display: -moz-box;
+  display: flex;
+  width: 100%;
+}
+
+/*MAIN*/
+.col1 {
+  padding: 20px;
+  margin-top: 0;
+  border-top: outset;
+}
+
+.col2 {
+  padding: 20px;
+  margin-top: 0;
+  border-top: outset;
+}
+
+.col3 {
+  padding: 20px;
+  margin-top: 0;
+  border-top: outset;
+}
+
+.col4 {
+  padding: 20px;
+  margin-top: 0;
+  border-top: outset;
+}
+
+.col5 {
+  padding: 20px;
+  margin-top: 0;
+  border-top: outset;
+}
+
+.col6 {
+  padding: 20px;
+  margin-top: 0;
+  border-top: outset;
+}
+
+footer {
+  display: -moz-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(55, 136, 200, 0.5);
+}
+
+/*
+dec032 - yellow
+3788c8 - blue
+e84827 - red/orange
+a24d98 - purple
+30a836 - green
+*/
+/* Mobile and Tablet */
+@media only screen and (min-width: 250px) and (max-width: 699px) {
+  h1 h2 h3 h4 {
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .col-content {
+    font-family: "open Sans", sans-serif;
+    text-align: center;
+  }
+
+  .container {
+    overflow: auto;
+    scroll-behavior: smooth;
+  }
+
+  .menu {
+    display: -moz-box;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+  }
+
+  .dropbutton {
+    display: block;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #30a836;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: left;
+    max-height: 75%;
+    width: 100%;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #30a836;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: white;
+    padding: 0.75em 1em;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbutton {
+    background-color: #ddd;
+  }
+
+  #nav-home {
+    background: white;
+    color: black;
+    display: -moz-box;
+    display: flex;
+    width: 150%;
+    font-size: 1em;
+  }
+
+  .nav-explore {
+    font-family: "Open Sans", sans-serif;
+    background: #30a836;
+    padding: 5px;
+    display: -moz-box;
+    display: flex;
+    width: 150%;
+  }
+
+  .nav-exhibition {
+    font-family: "Open Sans", sans-serif;
+    background: #a24d98;
+    padding: 5px;
+    display: -moz-box;
+    display: flex;
+    width: 150%;
+  }
+
+  .nav-specials {
+    font-family: "Open Sans", sans-serif;
+    background: #e84827;
+    padding: 5px;
+    display: -moz-box;
+    display: flex;
+    width: 150%;
+  }
+
+  .nav-visit {
+    font-family: "Open Sans", sans-serif;
+    background: #3788c8;
+    padding: 5px;
+    display: -moz-box;
+    display: flex;
+    width: 150%;
+  }
+
+  .nav-involved {
+    font-family: "Open Sans", sans-serif;
+    background: #dec032;
+    padding: 5px;
+    display: -moz-box;
+    display: flex;
+    width: 150%;
+  }
+
+  .headerImage {
+    background-image: url(../images/scott-webb-1028252.jpg);
+    min-height: 200px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .headerImage2 {
+    background-image: url(../images/research2.jpg);
+    min-height: 200px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .headerImage3 {
+    background-image: url(../images/andrew-ruiz-3484212.jpg);
+    min-height: 200px;
+    min-width: 100%;
+    background-size: cover;
+    position: relative;
+  }
+
+  .headerImage4 {
+    background-image: url(../images/binoculars-2028304.jpg);
+    min-height: 200px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .headerImage5 {
+    background-image: url(../images/exhibition-1863344_19202.jpg);
+    min-height: 200px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .headerImage6 {
+    background-image: url(../images/kid.jpg);
+    min-height: 200px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .learnbtn {
+    background: #e84827;
+    padding: 0.8em;
+    padding: #e84827;
+    border-radius: 10px;
+    align-content: flex-end;
+    position: absolute;
+    color: white;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+
+  .visit-info {
+    display: -moz-box;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .visit-info a {
+    text-decoration: none;
+    color: #e84827;
+    font-style: bold;
+    background: rgba(222, 192, 50, 0.5);
+  }
+
+  /*inline-block so the picture keeps inside the block*/
+  .blockCosm {
+    display: inline-block;
+    flex: 1;
+    padding: 20px;
+    background-size: cover;
+    margin: 10px;
+    border: solid;
+    border-radius: 10%;
+    border-color: #30a836;
+  }
+
+  .blockEvo {
+    display: inline-block;
+    flex: 1;
+    padding: 20px;
+    justify-content: flex-end;
+    background-size: cover;
+    margin: 10px;
+    border: solid;
+    border-radius: 10%;
+    border-color: #30a836;
+  }
+
+  .blockBio {
+    display: inline-block;
+    flex: 1;
+    padding: 20px;
+    background-size: cover;
+    margin: 10px;
+    border: solid;
+    border-radius: 10%;
+    border-color: #30a836;
+  }
+
+  .blockAi {
+    display: inline-block;
+    flex: 1;
+    padding: 20px;
+    background-size: cover;
+    margin: 10px;
+    border: solid;
+    border-radius: 10%;
+    border-color: #30a836;
+  }
+
+  footer {
+    display: -moz-box;
+    display: flex;
+    flex-direction: column;
+    /*background: #dec032;*/
+    padding: 10px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .admission {
+    flex-direction: column;
+    margin: left;
+  }
+
+  .hours {
+    flex-direction: column;
+    margin: left;
+  }
+}
+/* Laptop and Desktop */
+@media only screen and (min-width: 700px) {
+  h1 {
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3.5em;
+  }
+
+  h2 {
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3em;
+  }
+
+  h3 {
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2em;
+    color: #e84827;
+  }
+
+  h4 {
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1.5em;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  #logo {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #nav-home {
+    font-family: "Open Sans", sans-serif;
+    background: white;
+    color: black;
+    padding: 10px;
+    color: #3788c8;
+    margin: 5px;
+  }
+
+  .menu {
+    display: -moz-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .nav-explore {
+    font-family: "Open Sans", sans-serif;
+    background: #30a836;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  .nav-exhibition {
+    font-family: "Open Sans", sans-serif;
+    background: #a24d98;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  .nav-specials {
+    font-family: "Open Sans", sans-serif;
+    background: #e84827;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  .nav-visit {
+    font-family: "Open Sans", sans-serif;
+    background: #3788c8;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  .nav-involved {
+    font-family: "Open Sans", sans-serif;
+    background: #dec032;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  .nav-desktop {
+    display: -moz-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .nav-desktop a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    flex-direction: row;
+  }
+
+  .dropbutton {
+    display: none;
+  }
+
+  .headerImage {
+    background-image: url(../images/exhibition-1863344_19202.jpg);
+    min-height: 700px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .headerImage2 {
+    background-image: url(../images/research2.jpg);
+    min-height: 700px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .headerImage3 {
+    background-image: url(../images/andrew-ruiz-3484212.jpg);
+    min-height: 700px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .headerImage4 {
+    background-image: url(../images/binoculars-2028304.jpg);
+    min-height: 700px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .headerImage5 {
+    background-image: url(../images/scott-webb-1028252.jpg);
+    min-height: 700px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .headerImage6 {
+    background-image: url(../images/kid.jpg);
+    min-height: 700px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .learnbtn {
+    background: #e84827;
+    font-size: 2em;
+    padding: 0.8em;
+    border-radius: 30px;
+    padding: #e84827;
+    align-content: center;
+    position: absolute;
+    top: 70%;
+    right: 5%;
+    color: white;
+  }
+
+  .col-content {
+    text-align: center;
+    font-family: "open Sans", sans-serif;
+  }
+
+  .explore {
+    display: -moz-box;
+    display: flex;
+    width: 30%;
+  }
+
+  .exploreRes {
+    display: -moz-box;
+    display: flex;
+    width: 90%;
+    align-items: center;
+  }
+
+  .visit-info {
+    display: -moz-box;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    border-top: outset;
+    background: rgba(162, 77, 152, 0.5);
+    margin: 10px 0px;
+  }
+
+  .visit-info a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .blockCosm {
+    flex: 1;
+    padding: 20px;
+    width: 100%;
+    margin: 10px;
+  }
+
+  .blockEvo {
+    flex: 1;
+    padding: 20px;
+    width: 100%;
+    margin: 10px;
+  }
+
+  .blockBio {
+    flex: 1;
+    padding: 20px;
+    width: 100%;
+    margin: 10px;
+  }
+
+  .blockAi {
+    flex: 1;
+    padding: 20px;
+    width: 100%;
+    margin: 10px;
+  }
+
+  footer {
+    display: -moz-box;
+    display: flex;
+    flex-direction: row;
+    /*background: #dec032;*/
+    padding: 10px;
+  }
+
+  .admission {
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+  }
+
+  .hours {
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+  }
+}
+/*
+dec032 - yellow
+3788c8 - blue
+e84827 - red/orange
+a24d98 - pink/purple
+30a836 - green
+*/
+
+/*# sourceMappingURL=style.css.map */
