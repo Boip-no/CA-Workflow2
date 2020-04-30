@@ -39,7 +39,7 @@ module.exports = function(grunt) {
                     expand: true,
                     cwd: 'src/',
                     src: ['**/*.{png,jpg,gif}'],
-                    dest: 'dist/images'
+                    dest: 'images'
                 }]
             }
         },
@@ -52,10 +52,9 @@ module.exports = function(grunt) {
                 files: "**/*.html",
             },
             img: {
-                files: "dist/images",
+                files: "images",
                 tasks: ["imagemin"]
             }
-
         }    
     });
     grunt.loadNpmTasks("grunt-contrib-sass");
